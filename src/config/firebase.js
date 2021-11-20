@@ -1,8 +1,8 @@
 export const fbaseConfig = {
-  apiKey: 'YOUR_FIREBASE_PROJECT_API_KEY',
-  authDomain: 'YOUR_FIREBASE_PROJECT.firebaseapp.com',
+  apiKey: 'AIzaSyA2Frv1HO4DlwJDm2ZNqX5daTr_oTyXXRk',
+  authDomain: 'rey-yt.firebaseapp.com',
   databaseURL: 'YOUR_FIREBASE_PROJECT.firebaseio.com',
-  projectId: 'YOUR_FIREBASE_PROJECT',
+  projectId: 'rey-yt',
   storageBucket: 'YOUR_FIREBASE_PROJECT.appspot.com',
-  messagingSenderId: 'YOUR_FIREBASE_PROJECT_MSG_SEN_ID',
+  messagingSenderId: '580058051801',
 };
