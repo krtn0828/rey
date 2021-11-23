@@ -1,13 +1,6 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native-web';
 import { initializeApp } from 'firebase/app';
-
-// TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
-  //...
-};
-
-const app = initializeApp(firebaseConfig);
 import 'firebase/auth';
 import 'firebase/firestore';
 import { view } from 'react-easy-state';
@@ -23,6 +16,13 @@ import { showToast } from '../../utils/utils';
 import { saveDataToStorage, getDataFromStorage } from '../../api/storage';
 import GoogleButton from './../../assets/images/google.png';
 import TwitterButton from './../../assets/images/twitter.png';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
 
 const styles = {
   rootContainer: {
