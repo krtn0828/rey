@@ -1,6 +1,13 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native-web';
-import * as firebase from 'firebase/app';
+import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
 import 'firebase/auth';
 import 'firebase/firestore';
 import { view } from 'react-easy-state';
